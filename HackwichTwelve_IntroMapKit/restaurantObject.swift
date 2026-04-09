@@ -25,7 +25,7 @@ let coordinate: CLLocationCoordinate2D
     
     var subtitle: String?
     {
-        return restaurantTitle
+        return restaurantType
     }
 
     

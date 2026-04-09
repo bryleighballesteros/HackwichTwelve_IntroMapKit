@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         mapView.addAnnotation(restaurantOne)
         
         //add our second annotation to the map (problem sets)
-        let restaurantTwo = restaurantObject(title: "Italian", type: "Assaggio", coordinate: CLLocationCoordinate2D(latitude: 21.332778, longitude: -158.082889))
+        let restaurantTwo = restaurantObject(title: "Assaggio", type: "Italian", coordinate: CLLocationCoordinate2D(latitude: 21.332778, longitude: -158.082889))
         mapView.addAnnotation(restaurantTwo)
     }
 
